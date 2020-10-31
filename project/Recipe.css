@@ -1,0 +1,96 @@
+html, body {
+    margin-left: 30px;
+    line-height: 50px;
+    background: #ddccc0;
+    margin-top: none;
+  }
+#img1 {
+    margin-left: auto;
+    margin-top: -0.5rem;
+    margin-bottom: -1rem; 
+    margin-right: auto;
+    border: 5px solid navy;
+    border-right: -10rem;
+    border-left: -10rem;
+    padding: 5px;      
+    }
+#img2{
+    float: left;
+}
+li {
+    
+    line-height: 30px;
+    font-family: consolas;
+  }
+  h1 {
+    font-weight: bold ;
+    text-align: center;
+    font-family: fantasy;
+    color: #3a8806
+  }
+#list {
+    color: white;
+    padding: 2rem;
+    list-style-image: url(https://courses.edx.org/assets/courseware/v1/073e0b55b08d259174c48c569c6696d9/asset-v1:W3Cx+HTML5.0x+1T2020+type@asset+block/my_triangle.png);
+    background-image: url("https://cdn.imgbin.com/0/22/7/imgbin-food-background-EDdTnWZrUj2fK8MMVxHAempdB.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+}
+
+.recipes > li > a{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+}
+.recipes > li{
+    margin-left: 15rem;
+}
+
+
+ #recipe {
+    text-align: center;
+    background: rgb(252, 236, 93);
+   }
+.tips{
+    border:0.5px solid #F00; 
+    margin-top: -2rem;
+    margin-left:310px;
+    margin-right: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-family: consolas;
+}
+table{
+    border-collapse: collapse; 
+    margin-left: 10px;
+    text-align: left; 
+    background-color: antiquewhite;
+}
+tr{
+    border-bottom: 5px solid tan;
+}
+td{
+    padding-right: 4em;
+    padding: 6px;
+}
+summary:hover {
+    background: #84a8dd;
+    border: 0.8px #fcf48c solid;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: OCR A Std, monospace;
+    text-decoration: none;  
+  }
+  .user2 {
+    position:relative;
+    display:inline-block;
+  }
+  #tip4{
+    font-size: 1.5rem;
+    margin-left:310px;
+    margin-bottom: 25px;
+    list-style: "\1F44D";
+  }
